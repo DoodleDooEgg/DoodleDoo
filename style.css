@@ -35,6 +35,12 @@ a{
 	text-decoration: none
 }
 
+.nav-branding1{
+        font-size: 2rem;
+	font-family: arial;
+}
+
+
 .container{
 	width: 1280px;
 	margin: auto;
@@ -56,19 +62,20 @@ a{
 	gap: 60px;
 }
 
-.nav-branding1{
-        font-size: 2rem;
-	font-family: arial;
-}
 
 .Home, .About, .Contact{
 	height: 720px;
 	margin-top: 70px;
 }
 
-
 @media(max-width:1280px){
 	.container{
 		width: 100%;
 	}
 }
+.Home, .About, .Contact{
+	height: 720px;
+	margin-top: 70px;
+}
+
+
