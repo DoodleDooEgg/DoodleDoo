@@ -56,8 +56,8 @@ a{
 }
 
 .nav-branding1{
-	height: 9px;
-	width: 16px;
+        font-size: 2rem;
+	font-family: arial;
 }
 
 .Home, .About, .Contact{
