@@ -6,76 +6,73 @@ h1{
 
 h2{
   font-family: arial;
-  transform: translate(0%,1000%);
+  transform: translate(0%,600%);
 }
 
 *{
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 body{
-	margin-top: 100px;
-	position: relative;
+    margin-top: 100px;
+    position: relative;
 }
 
 
 header{
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ff0000;
 }
 
 li{
-	list-style: none;
+    font-family: arial;
+    font-size: larger;
+    list-style: none;
 }
 
 a{
-	color: #000000;
-	text-decoration: none
+    color: #ffffff;
+    text-decoration: none
 }
 
 .nav-branding1{
         font-size: 2rem;
-	font-family: arial;
+    font-family: arial;
 }
 
 
 .container{
-	width: 1280px;
-	margin: auto;
+    
+    width: 1280px;
+    margin: auto;
 }
 
 .navbar{
-	width: 95%;
-	margin: auto;
-	min-height: 70px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    width: 95%;
+    margin: auto;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-menu{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	gap: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
 }
 
 
 .Home, .About, .Contact{
-	height: 720px;
-	margin-top: 70px;
+    height: 720px;
+    margin-top: 70px;
 }
 
 @media(max-width:1280px){
-	.container{
-		width: 100%;
-	}
+    .container{
+        width: 100%;
+    }
 }
-.Home, .About, .Contact{
-	height: 720px;
-	margin-top: 70px;
-}
-
-
