@@ -27,6 +27,7 @@ header{
     top: 0;
     width: 100%;
     background-color: #ff0000;
+    z-index: 1;
 }
 
 li{
