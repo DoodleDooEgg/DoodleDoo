@@ -1,0 +1,74 @@
+h1{
+  transform: translate(0%,190%);
+  font-family: arial;
+  font-size: 70px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin-top: 100px;
+    position: relative;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ff0000;
+}
+
+li{
+    font-family: arial;
+    font-size: larger;
+    list-style: none;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none
+}
+
+.nav-branding1{
+        font-size: 2rem;
+    font-family: arial;
+}
+
+
+.container{
+    
+    width: 1280px;
+    margin: auto;
+}
+
+.navbar{
+    width: 95%;
+    margin: auto;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff0000;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.Home, .About, .Contact{
+    height: 720px;
+    margin-top: 70px;
+}
+
+@media(max-width:1280px){
+    .container{
+        width: 100%;
+    }
+}
