@@ -12,12 +12,6 @@ p{
   margin-right: 100px;
 }
 
-a:ytlink {
-  color: #0000EE; 
-  background-color: transparent; 
-  text-decoration: none;
-}
-
 *{
     padding: 0;
     margin: 0;
