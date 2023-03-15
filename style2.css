@@ -12,7 +12,10 @@ p{
   margin-right: 100px;
 }
 
-ytlink{
+a:ytlink {
+  color: #0000EE; 
+  background-color: transparent; 
+  text-decoration: none;
 }
 
 *{
